@@ -1,4 +1,4 @@
-package com.aws.example;
+package com.aws.example.lambda;
 
 import com.amazonaws.services.lambda.runtime.Context;
 
