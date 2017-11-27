@@ -27,7 +27,7 @@
 		</dependencies>
 	</dependencyManagement>
 
- 
+
 	<dependencies>
 		<dependency>
 			<groupId>com.amazonaws</groupId>
@@ -36,6 +36,10 @@
 		<dependency>
 			<groupId>com.amazonaws</groupId>
 			<artifactId>aws-java-sdk-ssm</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>com.amazonaws</groupId>
+			<artifactId>aws-java-sdk-sts</artifactId>
 		</dependency>
 		<dependency>
 			<groupId>com.amazonaws</groupId>
