@@ -10,7 +10,7 @@
 	<properties>
 		<maven.compiler.source>1.8</maven.compiler.source>
 		<maven.compiler.target>1.8</maven.compiler.target>
-		<aws.version>1.11.145</aws.version>
+		<aws.version>1.11.256</aws.version>
 		<lambda.version>1.1.0</lambda.version>
 	</properties>
 
@@ -20,7 +20,7 @@
 			<dependency>
 				<groupId>com.amazonaws</groupId>
 				<artifactId>aws-java-sdk-bom</artifactId>
-				<version>1.11.145</version>
+				<version>${aws.version}</version>
 				<type>pom</type>
 				<scope>import</scope>
 			</dependency>
@@ -40,6 +40,10 @@
 		<dependency>
 			<groupId>com.amazonaws</groupId>
 			<artifactId>aws-java-sdk-sts</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>com.amazonaws</groupId>
+			<artifactId>aws-java-sdk-ses</artifactId>
 		</dependency>
 		<dependency>
 			<groupId>com.amazonaws</groupId>
