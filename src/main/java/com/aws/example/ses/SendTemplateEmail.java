@@ -20,8 +20,8 @@ import com.amazonaws.services.simpleemail.model.Template;
 
 public class SendTemplateEmail {
 
-    private static String userKey = "AKIAI5R5EOLOAAA6ZR4A";
-    private static String userSecret = "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";
+    private static String userKey = "PutYourKeyHere";
+    private static String userSecret = "PutYourSecretHere";
     private static String senderEmail = "satishpandey.soft@gmail.com";
     private static String templateName = "ContactNameTemplate";
     private static String emailText = "Hello {{user}} - I am Satish from CloudTechPro.";
